@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+body {
+    background-image: url(../img/FH.png);
+    background-size: 100%;
+}
+
+.imgReparo {
+    width: 420px;
+}
+
+/* Projects section */
+#projects .projects {
+	padding: 100px;
+}
+#projects .projects-header h1 {
+	margin-bottom: 50px;
+}
+#projects .all-projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#projects .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1000px;
+    height: 30%;
+	border-radius: 60px;
+}
+#projects .project-info {
+    margin-bottom: 40%;
+	flex-basis: 50%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+#projects .project-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+    text-align: center;
+}
+
+/* End Projects section */
+
+@media (min-width: 1317px) {
+    #projects .projects {
+        padding: 100px;
+    }
+}
