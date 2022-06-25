@@ -36,6 +36,13 @@ p {
 	font-weight: 300;
 	letter-spacing: 0.05rem;
 }
+
+.logo1 {
+	width: 80px; 
+	margin: 10px; 
+	margin-left: 55px;
+}
+
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
