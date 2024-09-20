@@ -1,2 +1,2 @@
 # NeWorld
-Site que criei para meu grupo de TCC
+Site para uma empresa de jogos
